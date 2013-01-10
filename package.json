@@ -1,0 +1,41 @@
+{
+    "version": "0.0.1",
+    "name"   : "mongoose.backbone.model",
+
+    "description": "Mongoose schema and backbone model mix for front and backend including client and server validation.",
+    "keywords"   : [
+        "mongoose", "backbone", "schema", "model", "backbone.model"
+    ],
+
+    "preferGlobal": false,
+
+    "homepage": "https://github.com/kersten/mongoose.backbone.model",
+    "author"  : "Kersten Bukhardt <kerstenk@gmail.com>",
+
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/kersten/mongoose.backbone.model"
+    },
+
+    "bugs": {
+        "url": "https://github.com/kersten/mongoose.backbone.model/issues"
+    },
+
+    "dependencies": {
+        "underscore"         : "*",
+        "backbone"           : "*",
+        "backbone-validation": "*",
+        "mongoose"           : "*"
+    },
+
+    "devDependencies": {
+        "mocha": "*"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT +no-false-attribs",
+            "url" : "https://github.com/isaacs/npm/raw/master/LICENSE"
+        }
+    ]
+}
